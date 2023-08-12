@@ -39,4 +39,5 @@ jobs:
 
       - name: Build frontend
         run: |
+          pnpm install
           pnpm run build
